@@ -1,0 +1,5 @@
+Censor Weights for PP:
+  - Numerator formula: 1 - censored ~ x2
+  - Denominator formula: 1 - censored ~ x2 + x1 + cluster
+  - Denominator model is not pooled.  - Model fitter type: te_stats_glm_logit
+  - Weight models not fitted. Use calculate_weights()
